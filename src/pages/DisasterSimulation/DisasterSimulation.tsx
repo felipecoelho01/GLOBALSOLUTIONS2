@@ -205,9 +205,9 @@ const DisasterSimulation = () => {
                     <div className="container">
                         <div className="scenarios-grid">
                             <h2 className="mb-4">Escolha um Cenário</h2>
-                            <div className="row g-4">
+                            <div className="row">
                                 {scenarios.map(scenario => (
-                                    <div key={scenario.id} className="col-lg-4 col-md-6">
+                                    <div key={scenario.id} className="col-4">
                                         <div className={`scenario-card ${scenario.type}`}>
                                             <div className="scenario-header">
                                                 <div className={`scenario-icon ${scenario.type}`}>

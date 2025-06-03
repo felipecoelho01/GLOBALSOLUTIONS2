@@ -136,7 +136,7 @@ const About = () => {
           </div>
           
           <div className="row g-5 align-items-center">
-            <div className="col-lg-6">
+            <div className="col-6">
               <div className="problem-card">
                 <h3><i className="fas fa-exclamation-triangle me-2 text-danger"></i>O Problema</h3>
                 <ul className="problem-list">
@@ -149,7 +149,7 @@ const About = () => {
               </div>
             </div>
             
-            <div className="col-lg-6">
+            <div className="col-6">
               <div className="solution-card">
                 <h3><i className="fas fa-lightbulb me-2 text-success"></i>Nossa Solução</h3>
                 <ul className="solution-list">

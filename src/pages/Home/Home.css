@@ -54,6 +54,10 @@
   line-height: 1.6;
 }
 
+.hero-buttons{
+  margin-bottom: 20px;
+}
+
 .hero-btn {
   padding: 1rem 2rem;
   border-radius: 50px;

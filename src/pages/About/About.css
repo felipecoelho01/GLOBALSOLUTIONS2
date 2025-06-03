@@ -13,7 +13,7 @@
 }
 
 .about-hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -147,7 +147,8 @@
 }
 
 @keyframes float-gentle {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
   33% {
@@ -186,6 +187,11 @@
   height: 100%;
 }
 
+.solution-card:hover {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+}
+
 .problem-card h3,
 .solution-card h3 {
   font-size: 1.8rem;
@@ -210,13 +216,13 @@
 }
 
 .problem-list li:before {
-  content: '❌';
+  content: "❌";
   position: absolute;
   left: 0;
 }
 
 .solution-list li:before {
-  content: '✅';
+  content: "✅";
   position: absolute;
   left: 0;
 }
@@ -464,8 +470,12 @@
 }
 
 @keyframes grow-bar {
-  from { height: 0; }
-  to { height: var(--bar-height, 100%); }
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--bar-height, 100%);
+  }
 }
 
 .chart-item label {
@@ -508,31 +518,31 @@
   .about-title {
     font-size: 2.5rem;
   }
-  
+
   .about-stats {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  
+
   .about-visual {
     height: 300px;
     margin-top: 3rem;
   }
-  
+
   .floating-card {
     max-width: 160px;
     padding: 1rem;
   }
-  
+
   .tech-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .impact-chart {
     gap: 1rem;
     padding: 1rem;
   }
-  
+
   .chart-bar {
     width: 40px;
   }
@@ -542,65 +552,65 @@
   .about-hero {
     padding: 3rem 0;
   }
-  
+
   .about-title {
     font-size: 2rem;
   }
-  
+
   .about-description {
     font-size: 1.1rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .tech-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .floating-card {
     position: static;
     margin: 1rem auto;
     max-width: 250px;
   }
-  
+
   .about-visual {
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .problem-card,
   .solution-card,
   .feature-card,
   .team-card {
     padding: 2rem;
   }
-  
+
   .impact-chart {
     gap: 0.5rem;
     height: 250px;
   }
-  
+
   .chart-bar {
     width: 30px;
   }
-  
+
   .chart-item label {
     font-size: 0.7rem;
   }
-  
+
   .cta-buttons {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
   }
-  
+
   .cta-buttons .btn {
     width: 80%;
     max-width: 300px;
   }
-} 
+}

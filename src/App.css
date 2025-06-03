@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 1px;
+  margin-right: 100px;
+  padding: 100px;
+}

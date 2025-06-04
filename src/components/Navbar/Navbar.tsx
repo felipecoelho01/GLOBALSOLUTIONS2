@@ -65,6 +65,9 @@ const Navbar = () => {
                 <i className="fas fa-info-circle me-2"></i>Sobre
               </Link>
             </li>
+            <li className="nav-item">
+              <a className='nav-link' href="" target='_blank'><i className="fa-brands fa-youtube fa-xl"></i></a>
+            </li>
           </ul>
         </div>
       </div>

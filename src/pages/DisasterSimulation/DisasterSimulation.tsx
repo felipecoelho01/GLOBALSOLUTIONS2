@@ -253,7 +253,7 @@ const DisasterSimulation = () => {
                     <div className="container">
                         <div className="row">
                             {/* Simulation Control Panel */}
-                            <div className="col-lg-4">
+                            <div className="col-4">
                                 <div className="control-panel">
                                     <div className="scenario-info">
                                         <h3>{activeScenario.title}</h3>
@@ -296,7 +296,7 @@ const DisasterSimulation = () => {
                             </div>
 
                             {/* Map and Routes */}
-                            <div className="col-lg-8">
+                            <div className="col-8">
                                 <div className="simulation-map">
                                     <div className="map-header">
                                         <h4>Mapa da Região</h4>

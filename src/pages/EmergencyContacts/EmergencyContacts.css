@@ -1,6 +1,7 @@
 /* Emergency Contacts Styles */
 .emergency-container {
   padding-top: 100px;
+  padding-bottom: 20px;
   min-height: 100vh;
   background: linear-gradient(135deg, #dc3545 0%, #fd7e14 50%, #ffc107 100%);
 }

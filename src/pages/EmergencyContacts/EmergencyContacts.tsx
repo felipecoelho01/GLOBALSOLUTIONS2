@@ -287,7 +287,7 @@ const EmergencyContacts = () => {
             )}
 
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-8">
                 <div className="help-form-card">
                   <h3><i className="fas fa-life-ring me-2"></i>Formulário de Solicitação de Ajuda</h3>
                   
@@ -416,7 +416,7 @@ const EmergencyContacts = () => {
                 </div>
               </div>
 
-              <div className="col-lg-4">
+              <div className="col-4">
                 <div className="help-info-card">
                   <h4><i className="fas fa-info-circle me-2"></i>Informações Importantes</h4>
                   

@@ -1,6 +1,7 @@
 /* Simulation Styles */
 .simulation-container {
   padding-top: 100px;
+  padding-bottom: 20px;
   min-height: 100vh;
   background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
 }
@@ -42,13 +43,13 @@
   transition: all 0.3s ease;
   border: 1px solid #e9ecef;
   height: 100%;
-  position: relative;
+  position: flex;
   overflow: hidden;
 }
 
 .scenario-card::before {
   content: '';
-  position: absolute;
+  position: flex;
   top: 0;
   left: 0;
   width: 100%;

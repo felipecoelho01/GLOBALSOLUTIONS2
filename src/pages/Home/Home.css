@@ -1,6 +1,7 @@
 /* Home Page Styles */
 .home-container {
   padding-top: 80px; /* Account for fixed navbar */
+  padding-bottom: 20px;
 }
 
 /* Hero Section */

@@ -6,14 +6,14 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
+    // Modo bundler
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
+    // Regras de lint
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './GameDashboard.css';
 
@@ -12,7 +12,7 @@ interface UserProgress {
 }
 
 const GameDashboard = () => {
-  const [userProgress, setUserProgress] = useState<UserProgress>({
+  const [userProgress] = useState<UserProgress>({
     level: 3,
     xp: 750,
     xpToNext: 250,

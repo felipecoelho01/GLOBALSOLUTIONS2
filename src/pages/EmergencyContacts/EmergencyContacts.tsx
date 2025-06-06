@@ -163,6 +163,7 @@ const EmergencyContacts = () => {
           }));
         },
         (error) => {
+          console.log(error);
           alert('Erro ao obter localização. Por favor, insira manualmente.');
         }
       );
